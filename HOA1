@@ -1,0 +1,29 @@
+# COMMANDS USED IN HOA 1 #
+
+sudo nano /etc/hostname
+sudo nano /etc/hosts
+
+sudo apt update
+sudo apt upgrade
+
+sudo apt install openssh-server
+sudo system service ssh start
+sudo systemctl status ssh
+
+sudo ufw allow ssh
+sudo ufw enable
+sudo ufw status
+
+sudo apt install net-tools -y
+ifconfig
+ping
+
+ssh jonjeous@192.168.56.xxx #server1
+ssh jonjeous@192.168.56.xxx #server2
+
+sudo nano /etc/hosts #add the ip addrees for s1 and s2
+
+ssh jonjeous@server1
+ssh jonjeous@server2
+
+
